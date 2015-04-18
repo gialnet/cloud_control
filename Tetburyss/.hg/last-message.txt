@@ -1,0 +1,3 @@
+ajuste sobre forward y sendredirect
+para ajustar su comportamiento con nginx
+se mueve a la url www.myempresa.eu
