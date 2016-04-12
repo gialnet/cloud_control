@@ -6,6 +6,7 @@
 -- que permite en nuevo servidor
 --
 -- select AddNewServer('81.45.18.210','www.myempresa.eu',1,30,30,1,'Telefonica',1);
+-- select AddNewServer('37.153.108.155','www.myempresa.eu',2,50,30,1,'Joyent',1);
 -- select AddNewServer('81.45.22.58','www.loexisasesores.es',1,30,1,35,'Telefonica',1);
 --
 CREATE OR REPLACE FUNCTION AddNewServer(

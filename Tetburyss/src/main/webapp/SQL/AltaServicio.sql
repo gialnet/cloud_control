@@ -26,7 +26,9 @@ COST 100;
 -- *********************************
 -- Formulario de alta en el servicio
 -- *********************************
-
+--
+-- OJO esta funcion esta en desuso y da error al compilar
+--
 CREATE OR REPLACE FUNCTION AltaServicio(
     xNombre in varchar,
     xMail in varchar,
