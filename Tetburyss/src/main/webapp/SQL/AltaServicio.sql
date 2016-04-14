@@ -11,7 +11,7 @@ DECLARE
 
 BEGIN
 
-xURL:=encode(digest(to_char(ROUND(RANDOM() * 10000), '9999'), 'sha512'), 'hex');
+xURL:=encode(digest(to_char(ROUND(RANDOM() * 10000), '9999'), 'SHA512'), 'hex');
 
 return xURL;
 
